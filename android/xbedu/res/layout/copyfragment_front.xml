@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_front" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_front"
+            android:gravity="center" >
+
+            <!-- 
+            android:layout_above="@id/txt_toolbar"
+            android:layout_below="@id/txt_title"
+             -->
+             
+            <Button
+                android:id="@+id/btn_msg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_msg" />
+
+            <Button
+                android:id="@+id/btn_selfq"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/btn_msg"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_selfq" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_ceping"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_ceping" />
+
+            <Button
+                android:id="@+id/btn_aboutus"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/btn_ceping"
+                android:background="@drawable/btn_aboutus" />
+        </RelativeLayout>
+
+</FrameLayout>

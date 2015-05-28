@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[QinziViewController fetchValueSuccessWithDic:]:QinziViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "recipes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RootTabbarController supportedInterfaceOrientations]:RootTabbarController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.selectedViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LoginViewController fetchValueSuccessWithDic:]:LoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSDictionary *) returnValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AboutUsViewController fetchValueSuccessWithDic:]:AboutUsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SubjectiveDetailVewController handleSingleTap:]:SubjectiveDetailVewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[YuerViewController tableView:cellForRowAtIndexPath:]:YuerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[QinziViewController tableView:cellForRowAtIndexPath:]:QinziViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "recipes">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[QinziViewController viewDidLoad]:QinziViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SubjectiveDetailVewController viewDidLoad]:SubjectiveDetailVewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.lblSubSubKeyword">
+            </PersistentString>
+            <PersistentString
+               value = "SCREEN_WIDTH">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CepingViewController viewDidLoad]:CepingViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.webView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[YuerDetailViewController viewDidLoad]:YuerDetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SubjectiveDetailVewController initDataAndView]:SubjectiveDetailVewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.lblSubSubKeyword">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[YuerViewController viewDidLoad]:YuerViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[YuerViewController fetchValueSuccessWithDic:]:YuerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[UIScreen mainScreen]">
+            </PersistentString>
+            <PersistentString
+               value = "iPhone5 == FALSE">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

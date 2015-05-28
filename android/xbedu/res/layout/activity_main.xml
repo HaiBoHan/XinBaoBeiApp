@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_welcome"
+    >
+    
+    <!-- 
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/new_mainwelcome"/>
+     -->
+     
+    <RelativeLayout
+        android:id="@+id/txt_XXX"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" 
+        android:layout_marginTop="50dp"
+        >
+     
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="bottom|center_horizontal"
+	        android:orientation="horizontal"
+	        android:padding="5dp" >
+	        
+	        <TextView
+	            android:id="@+id/tv_des1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="让每个妈妈都"
+	            android:gravity="center_horizontal|left"
+	            android:textColor="#ffffff"
+	            android:textSize="20sp"
+	             />
+	
+	        <TextView
+	            android:id="@+id/tv_des2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="慧"
+	            android:gravity="center_horizontal|left"
+	            android:textColor="#ffffff"
+	            android:textSize="35sp"
+	            android:textStyle="bold" 
+	            />
+	        
+	        <TextView
+	            android:id="@+id/tv_des3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="爱孩子"
+	            android:gravity="center_horizontal|left"
+	            android:textColor="#ffffff"
+	            android:textSize="20sp"
+	             />
+	        
+	    </LinearLayout>
+            
+    </RelativeLayout>
+	   
+   <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:layout_weight="0.1"
+		android:gravity="bottom"
+		android:orientation="vertical" >
+    
+	    <TextView
+	        android:id="@+id/tv_url"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="40dp"
+	        android:text="www.xinbaobeijiaoyu.com"
+	        android:textColor="#ffa421"
+	        android:textSize="15sp" 
+	        android:gravity="center"
+	        />
+    
+	    <!-- 
+	    android:layout_marginTop="350dp"
+	     -->
+	    
+	</LinearLayout>
+     
+</LinearLayout>

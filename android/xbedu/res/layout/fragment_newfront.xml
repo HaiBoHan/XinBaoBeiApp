@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/login_background"
+    >
+    <!-- 
+    android:background="@color/login_background" 
+     -->
+     
+    <RelativeLayout
+        android:id="@+id/txt_XXX"
+        android:layout_width="match_parent"
+        android:layout_height="160dp" 
+        android:layout_marginTop="42dp"
+        >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#33000000"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+            
+            <ImageView 
+		        android:id="@+id/iv_desc_icon"
+		        android:layout_width="35dp"
+		        android:layout_height="35dp"
+		        android:src="@drawable/new_des_icon" 
+                />
+
+            <TextView
+                android:id="@+id/tv_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|left"
+                android:textColor="#fdfdfd"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/ll_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" 
+                >
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+	    
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_common_title"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/new_title"
+            android:gravity="center"
+            android:text="育儿袋"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <!-- 
+        <TextView
+            android:id="@+id/tv_personinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="我的"
+            android:layout_marginRight="10dp"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+         -->
+        
+	     <ImageView
+	         android:id="@+id/iv_personinfo"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="10dp"
+	        android:layout_marginTop="5dp"
+	        android:layout_marginBottom="5dp"
+	        android:scaleType="centerInside"
+	        android:src="@drawable/new_person" 
+	        />
+    </FrameLayout>
+    
+     <ImageView
+         android:id="@+id/iv_message"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txt_XXX"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/new_front_buttom" 
+        />
+
+    <ListView android:id="@id/android:list"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/iv_message"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="55dp"
+           android:drawSelectorOnTop="false"/>
+    
+    <!-- 
+    android:id="@id/android:list"
+     -->
+
+    <LinearLayout
+        android:id="@+id/rl_Reminder"
+		android:layout_below="@id/iv_message"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:layout_marginTop="50dp" 
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+	    android:visibility="gone"
+        >
+		<!--   -->
+	    <TextView android:id="@+id/tv_messageinfo"
+	           android:layout_height="wrap_content"
+	           android:layout_gravity="bottom"
+			   android:layout_marginLeft="30dp"
+	           android:layout_width="280dp"
+	           android:textSize="16sp"
+	           android:gravity="left|bottom"
+	           android:textColor="#ffffff"
+	           android:background="@drawable/shape_reminder"
+	           />
+	    <!-- 
+	           android:text="@string/front_reminder_noauth"
+	           
+	           android:text="亲爱的宝爸宝妈您好，此功能仅限于VIP用户 \n具体详情请咨询电话  400-808-5311"
+	           android:text="温馨提示"
+	     -->
+	     
+	    <TextView android:id="@+id/tv_reminder_title"
+	           android:layout_height="wrap_content"
+	           android:text="@string/front_reminderTitle"
+	           android:layout_gravity="top"
+		   	   android:layout_marginLeft="-65dp"
+	           android:layout_width="60dp"
+	           android:textSize="15sp"
+	           android:paddingBottom="5dp"
+	           android:gravity="center|center"
+	           android:textColor="#ffffff"
+	           android:background="@drawable/new_cloud"
+	           />
+
+	     <ImageView
+	         android:id="@+id/iv_icon"
+	        android:layout_width="60dp"
+	        android:layout_height="60dp"
+		   android:layout_marginLeft="-15dp"
+		   android:layout_marginTop="-5dp"
+           android:layout_gravity="center"
+	           android:gravity="left|center"
+	        android:scaleType="centerInside"
+	        android:src="@drawable/new_reminder" 
+	        />
+	</LinearLayout>
+ 
+    <ScrollView 
+        android:id="@+id/sv_aboutus"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+		android:layout_below="@id/txt_XXX"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"
+		android:layout_marginTop="20dp" 
+	    android:visibility="gone"
+        >
+	    <TextView 
+	        android:id="@+id/tv_aboutusContent"
+	        android:layout_width="match_parent" 
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="30dp"
+	        android:layout_marginRight="30dp"
+	        android:layout_marginTop="10dp"
+	        android:textColor="#000000"
+	        android:textSize="15dp"
+	        android:lineSpacingMultiplier="1.2"
+	        />
+		    <!--     
+		    android:textStyle="bold"
+		     -->
+	</ScrollView>
+	
+</RelativeLayout>

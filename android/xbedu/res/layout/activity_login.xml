@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7dbe3"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/login_title" />
+
+<!--     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:text="鑫宝贝 • K12"
+        android:textColor="#ffffff"
+        android:shadowRadius="1"
+        android:textSize="40sp" /> -->
+        
+        <ImageView
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/login_title_text" />
+
+    <!-- 用户名 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="120dp">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/login_name" />
+
+        <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="账号/手机号"
+            android:inputType="text"
+            android:textColor="#bbffffff"
+            android:textColorHint="#e9e7e8"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <!-- 密码 -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/login_pwd" />
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:textColor="#bbffffff"
+            android:textColorHint="#e9e7e8"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/login_btn_bg"
+        android:textSize="20sp" />
+    
+     <ImageView
+        android:layout_width="160dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/new_welcome" 
+        />
+     
+     <!-- 
+        android:src="@drawable/login_welcome"
+      -->
+
+</LinearLayout>

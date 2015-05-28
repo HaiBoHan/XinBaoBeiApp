@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_main_tab_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="55dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/common_toolbar_background"
+    >
+    <!-- 
+    android:background="#e5e5e5"
+    android:background="#FFFFFF"
+    android:background="@drawable/bg_title" 
+ 	-->
+ 	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_tab_bottom_home"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="blocksDescendants"
+            android:background="@color/common_toolbar_btninit"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_bottom_home"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/new_home_1" 
+                android:clickable="true"
+            	android:background="@color/common_toolbar_btninit"
+                />
+
+            <TextView
+                android:id="@+id/tv_tab_bottom_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="首页"
+                />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/ll_tab_bottom_ceping"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="blocksDescendants"
+            android:background="@color/common_toolbar_btninit"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_bottom_ceping"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/new_ceping" 
+                android:clickable="true"
+            	android:background="@color/common_toolbar_btninit"
+                />
+
+            <TextView
+                android:id="@+id/tv_tab_bottom_ceping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="测评" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tab_bottom_subjective"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="blocksDescendants"
+            android:background="@color/common_toolbar_btninit"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_bottom_subjective"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:clickable="true"
+                android:src="@drawable/new_subjective" 
+            	android:background="@color/common_toolbar_btninit"
+            	/>
+
+            <TextView
+                android:id="@+id/tv_tab_bottom_subjective"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你问我答" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tab_bottom_qinzi"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="blocksDescendants"
+            android:background="@color/common_toolbar_btninit"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_bottom_qinzi"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:clickable="true"
+                android:src="@drawable/new_yuer"
+            	android:background="@color/common_toolbar_btninit"
+            	 />
+
+            <TextView
+                android:id="@+id/tv_tab_bottom_qinzi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="育儿经" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tab_bottom_about"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:descendantFocusability="blocksDescendants"
+            android:background="@color/common_toolbar_btninit"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ib_tab_bottom_about"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:scaleType="fitXY"
+                android:clickable="true"
+                android:src="@drawable/new_about" 
+            	android:background="@color/common_toolbar_btninit"
+            	/>
+
+            <TextView
+                android:id="@+id/tv_tab_bottom_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关于我们" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+
+<!--
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/bg_title"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnPre"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="首页"
+        android:textColor="#ffffff"
+        android:textSize="20sp" 
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/btnPrivate"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="个人档"
+        android:textColor="#ffffff"
+        android:textSize="20sp" 
+        android:layout_gravity="right"
+        android:background="@android:color/transparent"/>
+
+</FrameLayout>
+-->

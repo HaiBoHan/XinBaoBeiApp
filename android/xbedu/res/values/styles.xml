@@ -1,0 +1,62 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="NoTitle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ProgressHUD" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+	  
+    
+    <!-- wf add -->
+	<style name="unClicked">
+	  <item name="android:textSize">12sp</item>
+	  <item name="android:textStyle">normal</item>
+	  <item name="android:textColor">#828282</item>
+	</style>
+  
+	<style name="clicked">
+	  <item name="android:textSize">12sp</item>
+	  <item name="android:textStyle">normal</item>
+	  <item name="android:textColor">#ffa421</item>
+	</style>
+	
+	
+	<!-- 个人信息维护页面,文本字体格式 -->
+	<style name="personal_textview">
+	  <item name="android:textSize">15sp</item>
+	  <item name="android:textStyle">normal</item>
+	  <item name="android:textColor">#a8a8a7</item>
+	</style>
+	
+	<style name="personal_editview">
+	  <item name="android:textSize">18sp</item>
+	  <item name="android:textStyle">normal</item>
+	  <item name="android:textColor">#000000</item>
+	</style>
+	
+</resources>

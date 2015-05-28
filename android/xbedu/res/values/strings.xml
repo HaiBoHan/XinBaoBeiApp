@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">育儿袋</string>
+
+    <string name="front_reminderTitle">温馨提示</string>
+    <string name="front_reminder_noauth">亲爱的宝爸宝妈您好，此功能仅限于VIP用户 \n具体详情请咨询电话  400-808-5311</string>
+    <string name="front_reminder_nodata">暂无数据!</string>
+</resources>

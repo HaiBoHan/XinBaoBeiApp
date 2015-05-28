@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/login_background" 
+    >
+    <!-- 
+    android:background="#F0F0F0"
+     -->
+    
+    <TextView
+        android:id="@+id/tv_common_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="育儿"
+        android:textColor="#ffffff"
+        android:textSize="20sp" 
+        android:background="@drawable/new_title"
+        android:gravity="center"/>
+    
+     <ImageView
+        android:id="@+id/iv_msg_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/bg_msg_title" />
+    
+    <ListView android:id="@id/android:list"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:drawSelectorOnTop="false"/>
+
+    <TextView android:id="@+id/tv_messagelistfragment"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text=""
+           android:textSize="20sp"
+           android:gravity="center"
+           android:textColor="#000000"
+           android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+{
+"IsSuccess":true,
+"Message":null,
+"ResultJson":
+"[{\"Account\":\"my001\",\"Name\":\"小吴\",\"Passwd\":\"123456\",\"Sex\":\"女\",\"Age\":\"2012-1-01 00:00:00\",\"Pic\":\"nopic.jpg\"}]"
+}

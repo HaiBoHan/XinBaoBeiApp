@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+    
+    <TextView
+        android:id="@+id/tv_common_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="你问我答"
+        android:textColor="#ffffff"
+        android:textSize="20sp" 
+        android:background="@drawable/new_title"
+        android:gravity="center"/>
+    
+    
+    <TextView 
+        android:id="@+id/tv_subjective_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="欢迎来到你问我答"
+        android:textColor="#006666"
+        android:textSize="24sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+    <TextView 
+        android:id="@+id/tv_subjective_title_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="温馨提示(为了让专家更精准解答您的提问请认真选择分类信息与关健字)"
+        android:textStyle="bold"
+        android:textColor="#d1d1d1"
+        android:textSize="10sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"/>
+    
+    <ListView android:id="@id/android:list"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:drawSelectorOnTop="false"/>
+
+    <TextView android:id="@+id/tv_subjectivelistfragment"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text=""
+           android:textSize="20sp"
+           android:gravity="center"
+           android:textColor="#000000"
+           android:visibility="gone"/>
+    
+    <TextView 
+         android:id="@+id/tv_question"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="我对宝宝在____方面_____有问题！"
+	       android:layout_marginLeft="30dp"
+	       android:layout_marginRight="30dp"
+	       android:layout_marginTop="10dp"
+        	android:textSize="15dp"
+           android:textColor="#000000"
+           android:visibility="gone"
+        />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+接口说明：
+===============================
+  1. 登陆
+===============================
+------------------
+input：
+------------------
+u=用户名
+p=密码
+
+方法：POST
+------------------
+output：
+------------------
+{
+    "code": 1,
+    "message": "错误信息，或其它如：success",
+    "data": {
+            "parkName": "新红园",
+            "personName": "王一诚",
+            "childAge":3
+            "child_pics": [
+                    "http://www.baidu.com/1.jpg",
+                    "http://www.baidu.com/2.jpg",
+                    "http://www.baidu.com/3.jpg"
+            ]
+    }
+}

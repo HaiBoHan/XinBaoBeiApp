@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- wf Add -->
+    <!-- <color name="login_background">#f9dfac</color> -->
+    <color name="login_background">#e7e7e7</color>
+    <color name="about_background">#f8deaf</color>
+    <!-- <color name="common_toolbar_background">#e5e5e5</color> -->
+    <color name="common_toolbar_background">#f7f7f7</color>
+    <color name="common_toolbar_btninit">#0000</color>
+    <color name="common_toolbar_btnclicked">#f9dfac</color>
+    
+    <!-- Title颜色 -->
+    <color name="color_text_normal">#ffa421</color>
+    <color name="color_text_selected">#6fbdff</color>
+    <color name="color_radiobutton">#ffa421</color>
+    
+</resources>
